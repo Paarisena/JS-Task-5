@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="survey.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <fieldset>
+    <form class="row g-2">
+        <div class="col-md-2">
+          <label for="Firstname" class="form-label">First</label>
+          <input type="text" class="form-control" id="Firstname" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-2">
+          <label for="Lastname" class="form-label">Last</label>
+          <input type="text"  class="form-control" id="Lastname" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="row g-2">
+          <div class="col-md-4">
+          <label for="" class="form-label">Email</label>
+          <input type="email" class="form-control" id="Email" required>
+          <div class="invalid-feedback">Please enter correct email address</div>
+      </div>
+      </div>
+      <br>
+        <div><b>Your Experience</b></div>
+        <div class="stars">
+            <input class="star star-1" id="star-1" type="radio" name="star"/>
+            <label class="star star-1" for="star-1"></label>
+            <input class="star star-2" id="star-2" type="radio" name="star"/>
+            <label class="star star-2" for="star-2"></label>
+            <input class="star star-3" id="star-3" type="radio" name="star"/>
+            <label class="star star-3" for="star-3"></label>
+            <input class="star star-4" id="star-4" type="radio" name="star"/>
+            <label class="star star-4" for="star-4"></label>
+            <input class="star star-5" id="star-5" type="radio" name="star"/>
+            <label class="star star-5" for="star-5"></label>
+        </div>
+        <br>
+        <div>Overall, how would ou rate your Experience with us</div>
+        <br>
+        <div><b>How satisfied are you with</b></div>
+        <br>
+        <table>
+          <div class="col-md-4">
+          <th></th>
+          <th>Very Unsatisfied</th>
+          <th>Unsatisfied</th>
+          <th>Neutral</th>
+          <th>Satisfied</th>
+          <th>Very Satisfied</th>
+          <tr>
+            <td style="background-color: rgb(220, 227, 245);">Purchase</td>
+            <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+            <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+            <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+            <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+            <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+          </tr>
+          <tr>
+            <td>Service</td>
+            <td><input type="radio" name="option1"/></td>
+            <td><input type="radio" name="option1"/></td>
+            <td><input type="radio" name="option1"/></td>
+            <td><input type="radio" name="option1"/></td>
+            <td><input type="radio" name="option1"/></td>
+          </tr>
+          <tr>
+            <td style="background-color: rgb(196, 241, 255);">Overall</td>
+            <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+            <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+            <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+            <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+            <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+          </tr>
+          </div>
+        </table>
+        <br>
+        <div><b>How likely are you to</b></div>
+        <table>
+          <th></th>
+        <th>Very Unlikely</th>
+        <th>Unlikely</th>
+        <th>Neutral</th>
+        <th>likely</th>
+        <th>Very likely</th>
+        <tr>
+          <td style="background-color: rgb(220, 227, 245);">Buy fromus again</td>
+          <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+          <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+          <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+          <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+          <td style="background-color: rgb(220, 227, 245);"><input type="radio" name="option"/></td>
+         </tr>
+         <tr>
+          <td>Recommmend our product to others</td>
+          <td><input type="radio" name="option1"/></td>
+          <td><input type="radio" name="option1"/></td>
+          <td><input type="radio" name="option1"/></td>
+          <td><input type="radio" name="option1"/></td>
+          <td><input type="radio" name="option1"/></td>
+         </tr>
+         <tr>
+         <td style="background-color: rgb(196, 241, 255);">Recommond our company to others</td>
+         <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+          <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+          <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+          <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+          <td style="background-color: rgb(196, 241, 255);"><input type="radio" name="option2"/></td>
+         </tr>
+        </table>
+        <br>
+        <div><b>Addtional comments and suggestion</b></div>
+        <div class="col-md-5 form-floating" >
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        </div>
+        <br>
+        <div class="row g-2">
+          <div class="col-md-2">
+        <button style="border-color: white;">Submit</button>
+        </div>
+      </div>
+      </form>
+    </fieldset>
+</body>
+</html>
